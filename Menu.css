@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.bai-jamjuree-semibold {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.bai-jamjuree-regular {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.corben-regular {
+  font-family: "Corben", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.corben-bold {
+  font-family: "Corben", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body{
+   
+}
+
+header{
+    background-color: #545454;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vw;
+    width: 100vw;
+}
+
+main{
+    background-color: #717171;
+    height: 50vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vw;
+  
+}
+
+
+
+.titulo{
+    margin: 40px;
+    font-size: 80px;
+    color: whitesmoke;
+}
+
+a{
+    color: #545454;
+    list-style: none;
+    text-decoration: none;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 600px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: whitesmoke;
+    border: 10px double #545454;
+}
+
+li:hover{
+    background-color: whitesmoke;
+  color: #919191;
+  transform: translatey(-5px);
+  transition: all 0.2s ease;
+}

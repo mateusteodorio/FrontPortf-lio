@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.bai-jamjuree-semibold {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.bai-jamjuree-regular {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.corben-regular {
+  font-family: "Corben", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.corben-bold {
+  font-family: "Corben", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body{
+    background-color: #717171;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    margin: 40px;
+    font-size: 80px;
+    color: whitesmoke;
+}
+
+.subtitulo{
+  font-size: 50px;
+  color: #545454;
+}
+
+main{
+    background-color: #E0E0E0;
+    width: 30vw;
+    height: 40vw;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 100px;
+    border: 20px double #545454;
+}
+
+
+.formulario{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 20vw;
+}
+
+form{
+  color: #545454;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 5vw;
+  height: 5vw;
+}
+
+
+
+input{
+  margin: 10px;
+  width: 400px;
+  height: 50px;
+  border-radius: 50px;
+  border: 2px solid white;
+  border-left: 20px solid white;
+  font-size: 20px;
+  
+}
+
+.Avancar{
+  margin: 20px;
+  background-color: white;
+  border-style: none;
+  width: 300px;
+  height: 70px;
+  border-radius: 150px;
+}
+
+.Avancar:hover{
+  background-color: whitesmoke;
+  color: gray;
+  transform: translatey(-5px);
+  transition: all 0.2s ease;
+}
+
+h3{
+  color: #545454;
+}
+
+.Registro{
+  margin: 20px;
+  background-color: white;
+  border-style: none;
+  width: 150px;
+  height: 45px;
+  border-radius: 150px;
+}
+
+.Registro:hover{
+  background-color: whitesmoke;
+  color: gray;
+  transform: translatey(-5px);
+  transition: all 0.2s ease;
+}
