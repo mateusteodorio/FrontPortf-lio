@@ -1,0 +1,264 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.bai-jamjuree-semibold {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.bai-jamjuree-regular {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.corben-regular {
+    font-family: "Corben", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.corben-bold {
+    font-family: "Corben", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #545454;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 60vw;
+}
+
+header {
+    width: 100vw;
+    height: 5vw;
+    background-color: #717171;
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    color: #ffffff;
+    list-style: none;
+    text-decoration: none;
+}
+
+li:hover {
+    color: #212121;
+    transform: translatey(-5px);
+    transition: all 0.2s ease;
+
+}
+
+.Retorno {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 50px;
+}
+
+.titulo {
+    margin: 40px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.subtitulo{
+    font-size: 40px;
+    color: #ffffff;
+}
+h3{
+    color: white;
+    font-size: 20px;
+}
+
+
+.tabela{
+    width: 50vw;
+    height: 20vw;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    border: 2px solid white;
+    
+}
+
+.tabela td{
+    padding: 30px;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+.tabela th, tfoot td{
+    background-color: #212121;
+    text-align: center;
+}
+
+
+.tabela tr{
+    background-color: #545454;
+    color: beige;
+}
+
+.tabela tfoot td{
+text-align: center;
+}
+
+@media (max-width: 1500px)
+{
+  header{
+    height: 15vw;
+  }
+  main{
+    height: 80vw;
+  }
+
+  .formulario form{
+    height: 100vw;
+  }
+
+  .GrandeForm{
+    width: 1000px;
+    height: 40px;
+  }
+
+  .NormalForm{
+    width: 300px;
+    height: 40px;
+  }
+
+  .titulo{
+    font-size: 30px;
+  }
+  
+}
+
+
+@media (max-width: 1000px)
+{
+  header{
+  height: 20vw;
+  }
+  nav{
+    font-size: 15px;
+  }
+
+  .tabela{
+    width: 30vw;
+    height: 10vw;
+  }
+
+
+    main{
+    height: 120vw;
+  }
+  .formulario form{
+    height: 120vw;
+  }
+  .GrandeForm{
+    width: 500px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .NormalForm{
+    width: 200px;
+    height: 30px;
+    font-size: 10px;
+  }
+.titulo{
+  font-size: 30px;
+}
+
+.Avancar {
+    width: 100px;
+    height: 50px;
+  }
+
+
+
+}
+
+@media (max-width: 600px)
+{ header{
+  height: 30vw;
+}
+nav{
+    width: 30vw;
+    font-size: 10px;
+}
+
+.tabela{
+    width: 80vw;
+    height: 30vw;
+    font-size: 10px;
+}
+
+.tabela td{
+    padding: 0px;}
+
+ul{
+    width: 100vw;
+}
+li{
+    margin: 5px;
+}
+  main{
+    height: 150vw;
+  }
+  .formulario form{
+    height: 150vw;
+  }
+.GrandeForm{
+    width: 300px;
+    height: 20px;
+    font-size: 10px;
+  }
+  .NormalForm{
+    width: 100px;
+    height: 20px;
+    font-size: 10px;
+  }
+  .titulo {font-size: 10px;}
+
+  .Avancar {
+    width: 100px;
+    height: 50px;
+  }
+
+  .Retorno{
+    font-size: 10px;
+  }
+
+
+ 
+
+}

@@ -1,12 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CadastroProjeto.css">
     <title>Portfólios - Projetos</title>
 </head>
 <body>
+
+     <header>
+
+        <h1 class="titulo">Sistemas de Portfólios</h1>
+
+        <nav>
+
+            
+
+            <ul>
+
+                <a href="CadastroAluno.html">
+                    <li>Alunos</li>
+                </a>
+                <a href="CadastroTurma.html">
+                    <li>Turmas</li>
+                </a>
+                <a href="CadastroProjeto.html">
+                    <li>Novo Projeto</li>
+                </a>
+                <a href="Portfolio.html">
+                    <li>Portfólio</li>
+                </a>
+
+
+            </ul>
+
+           
+        </nav>
+
+         <a href="index.html" class="Retorno bai-jamjuree-semibold">← Retornar</a>
+
+    </header>
+
+    <main>
+
+        <section class="instrucoes">
+            <h2 class="subtitulo bai-jamjuree-semibold">Novo Projeto</h2>
+            <h3 class="corben-regular">Preencha abaixo as informações ↓↓</h3>
+        </section>
+
+        
+        <section class="formulario">
+        
+        <form action="CadastroAluno">
+
+            <label for="Nome" class="bai-jamjuree-semibold">Título: <div><input type="text" class="NormalForm"></div></label>
+            <section class="Maiores">
+            <label for="Sobre Mim" class="bai-jamjuree-semibold">Descrição: <div><input type="text" class="GrandeForm" ></div></label>
+            <label for="Tecnologias" class="bai-jamjuree-semibold">Link De Acesso: <div><input type="url" class="GrandeForm" ></div></label>
+            <label for="Habilidades" class="bai-jamjuree-semibold">Tecnologias Utilizadas: <div><input type="text" class="GrandeForm" ></div></label>
+            <label for="Ferramentas" class="bai-jamjuree-semibold">Imagem/Video: <div><input type="file" class="GrandeForm Arquivo" ></div></label>
+            </section>
+            <label for="Numero" class="bai-jamjuree-semibold">Aluno: <div><input type="text" class="NormalForm"></div></label>
+        </form>
+
+        </section>
+
+        <section class="Finalizacao">
+
+        <a href="Menu.html"><button class="bai-jamjuree-semibold Avancar">Enviar</button></a>
+
+        <a href="ListaProjetos.html" class="Retorno bai-jamjuree-semibold Lista">Lista De Projetos</a>
+        
+
+        </section>
+
+
+
+
+
+    </main>
     
 </body>
 </html>

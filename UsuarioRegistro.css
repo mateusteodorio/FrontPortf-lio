@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.bai-jamjuree-semibold {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.bai-jamjuree-regular {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.corben-regular {
+  font-family: "Corben", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.corben-bold {
+  font-family: "Corben", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body{
+    background-color: #717171;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.Retorno{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 50px;
+}
+
+.titulo{
+    margin: 40px;
+    font-size: 80px;
+    color: whitesmoke;
+}
+
+.subtitulo{
+  font-size: 35px;
+  color: #545454;
+}
+
+.Menu{
+    background-color: #E0E0E0;
+    width: 30vw;
+    height: 50vw;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 100px;
+    border: 20px double #545454;
+}
+
+
+.formulario{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 25vw;
+  width: 20vw;
+}
+
+
+form{
+  color: #545454;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 20vw;
+  height: 10vw;
+}
+
+
+
+input{
+  margin: 10px;
+  width: 400px;
+  height: 50px;
+  border-radius: 50px;
+  border: 2px solid white;
+  border-left: 20px solid white;
+  font-size: 20px;
+  
+}
+
+.Avancar{
+  margin: 20px;
+  background-color: white;
+  border-style: none;
+  width: 300px;
+  height: 70px;
+  border-radius: 150px;
+}
+
+.Avancar:hover{
+  background-color: whitesmoke;
+  color: gray;
+  transform: translatey(-5px);
+  transition: all 0.2s ease;
+}
+
+h3{
+  color: #545454;
+}
+
+.Registro{
+  margin: 20px;
+  background-color: white;
+  border-style: none;
+  width: 150px;
+  height: 45px;
+  border-radius: 150px;
+}
+
+.Registro:hover{
+  background-color: whitesmoke;
+  color: gray;
+  transform: translatey(-5px);
+  transition: all 0.2s ease;
+}
+
+
+@media (max-width: 1500px)
+{
+   .Menu{
+    height: 60vw;
+    width: 50vw;
+  }
+
+  input{
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+  }
+   .titulo{
+    font-size: 40px;
+  }
+  .subtitulo{
+    font-size: 25px;
+  }
+
+}
+
+
+@media (max-width: 800px)
+{
+
+  .Menu{
+    height: 100vw;
+    width: 70vw;
+  }
+
+  .formulario{
+height: 50vw;
+  }
+
+  .Login{
+    height: 100vw;
+  }
+
+  .titulo{
+    font-size: 20px;
+  }
+  .subtitulo{
+    font-size: 10px;
+  }
+  input{
+    width: 200px;
+    height: 25px;
+    font-size: 10px;
+  }
+  .Avancar {
+    width: 100px;
+    height: 50px;
+  }
+
+}
+
+@media (max-width: 500px)
+{
+
+  .Menu{
+    height: 100vw;
+    width: 90vw;
+    border-radius: 50px;
+  }
+
+  .formulario{
+height: 50vw;
+  }
+
+  .Login{
+    height: 100vw;
+  }
+
+  .titulo{
+    font-size: 20px;
+  }
+  .subtitulo{
+    font-size: 10px;
+  }
+  label{
+    font-size: 15px
+  }
+  input{
+    width: 150px;
+    height: 25px;
+    font-size: 10px;
+  }
+  .Avancar {
+    width: 100px;
+    height: 50px;
+  }
+
+}

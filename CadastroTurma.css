@@ -1,0 +1,305 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.bai-jamjuree-semibold {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.bai-jamjuree-regular {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.corben-regular {
+    font-family: "Corben", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.corben-bold {
+    font-family: "Corben", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #545454;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 100vw;
+    height: 5vw;
+    background-color: #717171;
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    color: #ffffff;
+    list-style: none;
+    text-decoration: none;
+}
+
+li:hover {
+    color: #212121;
+    transform: translatey(-5px);
+    transition: all 0.2s ease;
+
+}
+
+.Retorno {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 50px;
+}
+
+.titulo {
+    margin: 40px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.subtitulo{
+    font-size: 40px;
+    color: #ffffff;
+}
+h3{
+    color: white;
+    font-size: 20px;
+}
+
+.intrucoes{
+    width: 100vw;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+.formulario{
+    width: 100vw;
+    display: flex;
+
+}
+label{
+   font-size: 20px;
+}
+form{
+    width: 100vw;
+    height: 50vw;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.Maiores{
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.NormalForm {
+    margin: 20px;
+    width: 400px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid white;
+    border-left: 20px solid white;
+    font-size: 15px;
+
+}
+
+.GrandeForm {
+    margin: 20px;
+    width: 1400px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid #212121;
+    border-left: 20px solid white;
+    border-right: 20px solid #212121;
+    font-size: 20px;
+
+}
+
+.Avancar{
+  margin: 20px;
+  background-color: white;
+  border-style: none;
+  width: 300px;
+  height: 70px;
+  border-radius: 150px;
+}
+
+.Avancar:hover{
+  background-color: #212121;
+  color: white;
+  transform: translatey(-5px);
+  transition: all 0.2s ease;
+}
+
+.Finalizacao{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Lista:hover{
+    color: #212121;
+    transform: translatey(-5px);
+    transition: all 0.2s ease;
+}
+
+@media (max-width: 1500px)
+{
+  header{
+    height: 15vw;
+  }
+  main{
+    height: 100vw;
+  }
+
+  .formulario form{
+    height: 100vw;
+  }
+
+  .GrandeForm{
+    width: 1000px;
+    height: 40px;
+  }
+
+  .NormalForm{
+    width: 400px;
+    height: 40px;
+  }
+
+  .titulo{
+    font-size: 30px;
+  }
+  
+}
+
+
+@media (max-width: 1000px)
+{
+  header{
+  height: 20vw;
+  }
+  nav{
+    font-size: 15px;
+  }
+
+
+    main{
+    height: 120vw;
+  }
+  .formulario form{
+    height: 120vw;
+  }
+  .GrandeForm{
+    width: 500px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .NormalForm{
+    width: 300px;
+    height: 30px;
+    font-size: 10px;
+  }
+.titulo{
+  font-size: 30px;
+}
+
+.Avancar {
+    width: 100px;
+    height: 50px;
+  }
+
+
+
+}
+
+@media (max-width: 600px)
+{ header{
+  height: 30vw;
+}
+nav{
+    width: 30vw;
+    font-size: 10px;
+}
+
+ul{
+    width: 100vw;
+}
+li{
+    margin: 5px;
+}
+  main{
+    height: 150vw;
+  }
+  .formulario form{
+    height: 150vw;
+  }
+.GrandeForm{
+    width: 300px;
+    height: 20px;
+    font-size: 10px;
+  }
+  .NormalForm{
+    width: 300px;
+    height: 20px;
+    font-size: 10px;
+  }
+  .titulo {font-size: 10px;}
+
+  .Avancar {
+    width: 100px;
+    height: 50px;
+  }
+
+  .Retorno{
+    font-size: 10px;
+  }
+
+
+ 
+
+}

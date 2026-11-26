@@ -36,6 +36,14 @@ body{
     align-items: center;
 }
 
+main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
 .titulo{
     margin: 40px;
     font-size: 80px;
@@ -47,7 +55,7 @@ body{
   color: #545454;
 }
 
-main{
+.Menu{
     background-color: #E0E0E0;
     width: 30vw;
     height: 40vw;
@@ -126,4 +134,107 @@ h3{
   color: gray;
   transform: translatey(-5px);
   transition: all 0.2s ease;
+}
+
+
+@media (max-width: 1500px)
+{
+   .Menu{
+    height: 80vw;
+    width: 50vw;
+  }
+
+  .formulario{
+    height: 40vw;
+  }
+
+  input{
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+  }
+   .titulo{
+    font-size: 40px;
+  }
+  .subtitulo{
+    font-size: 25px;
+  }
+
+}
+
+
+@media (max-width: 800px)
+{
+
+  .Menu{
+    height: 90vw;
+    width: 70vw;
+  }
+
+  .formulario{
+height: 50vw;
+  }
+
+  .Login{
+    height: 100vw;
+  }
+
+  .titulo{
+    font-size: 20px;
+  }
+  .subtitulo{
+    font-size: 10px;
+  }
+  input{
+    width: 200px;
+    height: 25px;
+    font-size: 10px;
+  }
+  .Avancar {
+    width: 100px;
+    height: 50px;
+  }
+
+}
+
+@media (max-width: 600px)
+{
+
+  .Menu{
+    height: 120vw;
+    width: 60vw;
+    border-radius: 50px;
+  }
+
+  .formulario{
+height: 50vw;
+  }
+
+  .Login{
+    height: 100vw;
+  }
+
+  .titulo{
+    font-size: 30px;
+  }
+  .subtitulo{
+    font-size: 25px;
+  }
+
+  h3{
+    font-size: 10px;
+  }
+  input{
+    width: 150px;
+    height: 25px;
+    font-size: 10px;
+  }
+  .Avancar {
+    width: 100px;
+    height: 50px;
+  }
+
+  label{
+    font-size: 15px
+  }
 }
